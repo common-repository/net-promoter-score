@@ -1,0 +1,9 @@
+<script type="text/javascript">
+;;javascript;;
+</script>
+
+<form id=";;formid;;" method="post">
+	<div class="nps_fd_question">;;q1;;</div>
+	<div class="nps_fd_answer">;;a1;;</div>
+	<div class="nps_fd_button"><button type="submit" onclick="nps_submit_form(';;formid;;');">;;b1;;</button></div>
+</form>

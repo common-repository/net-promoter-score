@@ -1,0 +1,47 @@
+.nps_shortcode_container {
+	width: 100%;
+}
+
+.nps_form_container {
+	width: 250px;
+	margin: 0 auto;
+	background: #ffffff;
+	padding: 5px;
+}
+
+.nps_fd_question {
+	color: #101010;
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: capitalize;
+	width: 100%;
+}
+
+.nps_fd_answer {
+	font-family: arial;
+	font-size: 14px;
+	text-align: left;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#nps_form_answer {
+	font-family: arial;
+	font-size: 14px;
+}
+
+.nps_fd_button {
+	width: 100%;
+	text-align: center;
+}
+
+.nps_fd_button button {
+	background-color: #f1f1f1;
+	padding: 8px, 10px;
+	font-family: arial;
+	text-transform: capitalize;
+	color: #000000;
+	font-size: 14px;
+}

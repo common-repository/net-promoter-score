@@ -1,0 +1,54 @@
+<style type="text/css">
+	.nps_result_content table th {
+		text-align: center;
+		padding: 0;
+	}
+	
+	.nps_result_content table tr {
+		text-align: center;
+	}
+	
+	.nps_result_content table td {
+		padding-top: 8px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.nps_resetbtn_container {
+		text-align: right;
+	}
+</style>
+
+<div class="nps_result_container">
+	<div class="nps_result_content">
+		<table>
+			<thead>
+				<tr>
+					<th>;;table_h1;;</th>
+					<th>;;table_h2;;</th>
+					<th>;;table_h3;;</th>
+					<th>;;table_h4;;</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>;;detractors;;</td>
+					<td>;;passives;;</td>
+					<td>;;promoters;;</td>
+					<td>;;totalanswers;;</td>
+				</tr>
+			</tbody>
+		</table>
+		<h3>;;final_desc;; <b>;;final_value;;</b></h3>
+	</div>
+	<div class="nps_resetbtn_container">
+		<a href="#TB_inline?width=400&height=160&inlineId=nps_thickbox_content" class="button button-hero thickbox">;;btntext;;</a>
+	</div>
+	
+	<div id="nps_thickbox_content" style="display:none;">
+		 <h3>;;popup_title;;</h3>
+		 <p>;;popup_desc;;</p>
+		 <p style="text-align: right;"><button type="submit" class="button button-primary" onclick="document.forms['nps_adminsettings_form'].submit();">;;popup_btn;;</button></p>
+	</div>
+</div>

@@ -1,0 +1,54 @@
+.nps_shortcode_container {
+	width: 100%;
+}
+
+.nps_form_container {
+	width: 250px;
+	margin: 0 auto;
+	background: #edf5f4;
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.nps_fd_question {
+	background: #575757 none repeat scroll 0 0;
+	color: #efefef;
+	font-family: arial;
+	font-size: 14px;
+	left: -20px;
+	padding: 8px;
+	position: relative;
+	text-align: center;
+	width: 117%;
+}
+
+.nps_fd_answer {
+	font-family: arial;
+	font-size: 12px;
+	text-align: left;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+#nps_form_answer {
+	font-family: arial;
+	font-size: 12px;
+}
+
+.nps_fd_button {
+	width: 100%;
+	text-align: center;
+}
+
+.nps_fd_button button {
+	background-color: #fe930f;
+	padding: 8px, 10px;
+	font-family: arial;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #ffffff;
+	font-size: 14px;
+}
